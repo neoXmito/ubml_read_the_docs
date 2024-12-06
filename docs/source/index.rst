@@ -3,7 +3,13 @@
 ==============================
 AgriTech
 ==============================
+.. image:: images\culture1.jpg
+   :alt: Alternative text for the image
+   :width: 400px
 
+.. image:: images\culture2.jpg
+   :alt: Alternative text for the image
+   :width: 400px
 ubml is a tool to automate Machine Learning
 
 Getting Started
