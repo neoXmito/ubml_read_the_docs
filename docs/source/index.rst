@@ -1,7 +1,7 @@
 .. _topics-index:
 
 ==============================
-ubml documentation
+AgriTech
 ==============================
 
 ubml is a tool to automate Machine Learning
@@ -12,7 +12,7 @@ Getting Started
 Hi I am ubaid
 
 .. toctree::
-   :caption: Getting Started
+   :caption: DESCRIPTION DU PROJET
    :hidden:
 
    getting_help
@@ -35,7 +35,7 @@ Automation
 ===========
 
 .. toctree::
-   :caption: Automation
+   :caption: FUNCTIONALITIES
    :hidden:
 
    regression
@@ -60,6 +60,56 @@ Automation
    Perform predictions based on inputs
 
 
+
+Description du Projet
+===========
+
+
+.. toctree::
+   :caption: DESCRIPTION DU PROJET
+   :hidden:
+
+   installation
+
+Etapes du projet
+===========
+
+
+.. toctree::
+   :caption: ETAPES DU PROJET
+   :hidden:
+
+   installation
+
+Fonctionalites
+===========
+
+
+.. toctree::
+   :caption: FONCTIONALITES
+   :hidden:
+
+   installation
+
+Apercu du projet
+===========
+
+
+.. toctree::
+   :caption: APERCU DU PROJET 
+   :hidden:
+
+   installation
+
+Conclusion
+===========
+
+
+.. toctree::
+   :caption: CONCLUSION
+   :hidden:
+
+   installation
 
 
 
