@@ -69,7 +69,7 @@ Description du Projet
    :caption: DESCRIPTION DU PROJET
    :hidden:
 
-   installation
+   description
 
 Etapes du projet
 ===========
@@ -89,7 +89,10 @@ Fonctionalites
    :caption: FONCTIONALITES
    :hidden:
 
-   installation
+   culture
+   maladies
+   production
+
 
 Apercu du projet
 ===========
@@ -109,7 +112,7 @@ Conclusion
    :caption: CONCLUSION
    :hidden:
 
-   installation
+   conclusion
 
 
 
