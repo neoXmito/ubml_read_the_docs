@@ -3,7 +3,7 @@
 ==============================
 AgriTech
 ==============================
-.. image:: images\culture1.jpg
+.. image:: docs\build\html\_static\culture1.jpg
    :alt: Alternative text for the image
    :width: 400px
 
