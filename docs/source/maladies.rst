@@ -40,14 +40,14 @@ Applications
 - Aide à la gestion des maladies des plantes.
 - Optimisation de la production agricole en réduisant les pertes causées par les maladies.
 
- Technologies Utilisées
+Technologies Utilisées
 ------------------------------
 
 - **YOLOv5** pour la reconnaissance des maladies des plantes.
 - **Llama 3.1 (70B-versatile)** et **Groq** pour la recommandation de traitement.
 - **Scikit-learn**, **TensorFlow** pour l'optimisation du modèle et du système.
 
- Conclusion
+Conclusion
 ------------------------------
 
 La fonctionnalité de reconnaissance et de recommandation de traitement des maladies des plantes permet d'améliorer la gestion des maladies agricoles, tout en optimisant la santé des cultures et la production agricole dans son ensemble.

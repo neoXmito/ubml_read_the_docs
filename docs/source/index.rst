@@ -1,7 +1,7 @@
 .. _topics-index:
 
 ==============================
-AgriTech : Solution d'Intelligence Agricolehhhh
+AgriTech : Solution d'Intelligence Agricole
 ==============================
 
 
