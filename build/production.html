@@ -1,0 +1,180 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prédiction de la Production &mdash; ubml 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="conclusion.html" />
+    <link rel="prev" title="Reconnaissance des Maladies des Plantes et Recommandation des Traitements" href="maladies.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ubml
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">DESCRIPTION DU PROJET</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting_help.html">Getting help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">FUNCTIONALITIES</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="regression.html">Regression</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classification.html">Classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_train_test.html">Model Train Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load_model.html">Load Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prediction.html">Prediction</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ETAPES DU PROJET</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">FONCTIONALITES</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="culture.html">Recommandation de Culture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maladies.html">Reconnaissance des Maladies des Plantes et Recommandation des Traitements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maladies.html#conclusion">Conclusion</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Prédiction de la Production</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#caracteristiques-utilisees">Caractéristiques Utilisées</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modeles-entraines">Modèles Entraînés</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#resultats-et-meilleur-modele">Résultats et Meilleur Modèle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">APERCU DU PROJET</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ubml</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Prédiction de la Production</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/production.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="prediction-de-la-production">
+<h1>Prédiction de la Production<a class="headerlink" href="#prediction-de-la-production" title="Link to this heading"></a></h1>
+<p>Cette fonctionnalité utilise des données historiques et environnementales pour prédire la production agricole d’un champ donné.</p>
+<section id="caracteristiques-utilisees">
+<h2>Caractéristiques Utilisées<a class="headerlink" href="#caracteristiques-utilisees" title="Link to this heading"></a></h2>
+<p>Les prédictions sont basées sur les caractéristiques suivantes :</p>
+<ul class="simple">
+<li><p><strong>Area</strong> : Superficie cultivée (en hectares).</p></li>
+<li><p><strong>Item</strong> : Type de culture ou produit agricole.</p></li>
+<li><p><strong>Year</strong> : Année de production.</p></li>
+<li><p><strong>hg/ha_yield</strong> : Rendement par hectare (en hectogrammes).</p></li>
+<li><p><strong>average_rain_fall_mm_per_year</strong> : Pluviométrie annuelle moyenne (en mm).</p></li>
+<li><p><strong>pesticides_tonnes</strong> : Quantité de pesticides utilisés (en tonnes).</p></li>
+<li><p><strong>avg_temp</strong> : Température moyenne (°C).</p></li>
+</ul>
+</section>
+<section id="modeles-entraines">
+<h2>Modèles Entraînés<a class="headerlink" href="#modeles-entraines" title="Link to this heading"></a></h2>
+<p>Huit modèles de régression ont été testés pour prédire la production agricole :</p>
+<ul class="simple">
+<li><p><strong>Linear Regression</strong></p></li>
+<li><p><strong>Lasso</strong></p></li>
+<li><p><strong>Ridge</strong></p></li>
+<li><p><strong>K-Nearest Neighbors</strong></p></li>
+<li><p><strong>Decision Tree Regressor</strong></p></li>
+<li><p><strong>Random Forest Regressor</strong></p></li>
+<li><p><strong>Gradient Boosting</strong></p></li>
+<li><p><strong>XGBoost</strong></p></li>
+</ul>
+</section>
+<section id="resultats-et-meilleur-modele">
+<h2>Résultats et Meilleur Modèle<a class="headerlink" href="#resultats-et-meilleur-modele" title="Link to this heading"></a></h2>
+<p>Parmi les modèles testés, le modèle <strong>Random Forest Regressor</strong>  a montré les meilleures performances avec les métriques suivantes :</p>
+<ul class="simple">
+<li><p><strong>MSE (Erreur Quadratique Moyenne)</strong> : 9892.72</p></li>
+<li><p><strong>R² Score</strong> : 0.9867</p></li>
+</ul>
+<p>Grâce à ces résultats exceptionnels, ce modèle a été adopté pour cette fonctionnalité.</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading"></a></h2>
+<p>La prédiction de la production permet aux agriculteurs de planifier leurs ressources et d’optimiser leurs rendements. En utilisant le modèle <strong>Random Forest Regressor</strong>, l’application fournit des prévisions fiables basées sur des données historiques et environnementales.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="maladies.html" class="btn btn-neutral float-left" title="Reconnaissance des Maladies des Plantes et Recommandation des Traitements" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="conclusion.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Ubaid Ahmad.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
