@@ -3,13 +3,7 @@
 ==============================
 AgriTech : Solution d'Intelligence Agricole
 ==============================
-.. image:: docs\build\html\_static\culture1.jpg
-   :alt: Alternative text for the image
-   :width: 400px
 
-.. image:: images\culture2.jpg
-   :alt: Alternative text for the image
-   :width: 400px
 
 Description du Projet
 ===========
