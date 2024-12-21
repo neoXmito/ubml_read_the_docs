@@ -5,8 +5,6 @@ Reconnaissance de Maladies des Plantes
 
 La fonctionnalité de reconnaissance des maladies des plantes d'AgriTech utilise l'intelligence artificielle pour identifier et diagnostiquer les maladies à partir d'images de plantes. Elle repose sur un modèle d'apprentissage profond performant, formé à partir de divers jeux de données relatifs aux maladies agricoles.
 
-## Fonctionnalité
-
 Cette fonctionnalité se divise en deux parties principales :
 
 1. **Reconnaissance des Maladies**
