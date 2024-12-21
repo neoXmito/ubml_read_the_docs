@@ -65,8 +65,8 @@ Le modèle le plus performant pour la prédiction de la production agricole est 
 - **Random Forest Regressor** comme modèle principal pour la prédiction de la production.
 - **Flask** pour la mise en place de l'API permettant l'intégration avec l'application AgriTech.
 
- Conclusion
-=========================
+Conclusion
+----------------------
 
 La fonctionnalité de prédiction de production agricole permet aux agriculteurs de mieux prévoir les rendements et d'optimiser leur gestion des ressources, contribuant ainsi à une agriculture plus durable et plus efficace.
 
