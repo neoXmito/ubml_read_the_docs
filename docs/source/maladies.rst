@@ -1,35 +1,50 @@
-Reconnaissance des Maladies des Plantes et Recommandation des Traitements
-=========================================================================
+===============================
+Reconnaissance de Maladies des Plantes
+===============================
 
-**Fonctionnalité : Reconnaissance des maladies des plantes et recommandation des traitements**
 
-Cette fonctionnalité identifie les maladies présentes sur les plantes et fournit des recommandations de traitement adaptées.  
+La fonctionnalité de reconnaissance des maladies des plantes d'AgriTech utilise l'intelligence artificielle pour identifier et diagnostiquer les maladies à partir d'images de plantes. Elle repose sur un modèle d'apprentissage profond performant, formé à partir de divers jeux de données relatifs aux maladies agricoles.
 
-Étapes de mise en œuvre
+## Fonctionnalité
 
- 1. **Reconnaissance des maladies**
-- Le modèle **YOLOv5** a été utilisé pour détecter et identifier les maladies des plantes à partir d'images.
-- Les données d'entraînement contenaient diverses maladies courantes dans l'agriculture, permettant au modèle de classer précisément les maladies observées.
+Cette fonctionnalité se divise en deux parties principales :
 
- 2. **Recommandation des traitements**
-- Une approche basée sur le traitement naturel du langage a été adoptée pour recommander des traitements adaptés à chaque maladie identifiée.
-- Les recommandations ont été générées en appliquant un **prompt engineering** avec des modèles avancés :
-  - **Llama 3.1 (70B-versatile)** pour comprendre et structurer les données textuelles relatives aux traitements.
-  - **Groc** a été utilisé pour réduire le temps de référence et optimiser les réponses.
+1. **Reconnaissance des Maladies**
+2. **Recommandation de Traitement**
 
- **Résultats obtenus**
-- L'intégration de YOLOv5 pour la reconnaissance d'images et de modèles LLM pour la recommandation a permis d'obtenir des résultats précis et rapides.
-- Les traitements recommandés sont basés sur des recherches approfondies et validés par des experts.
+### 1. Reconnaissance des Maladies
 
-**Importance**
-Cette fonctionnalité aide les agriculteurs à :
-- Identifier les problèmes de santé des cultures rapidement.
-- Recevoir des recommandations de traitements efficaces basées sur des données fiables.
+Le modèle utilisé pour la reconnaissance des maladies des plantes est basé sur **YOLOv5**, un modèle de détection d'objets en temps réel qui a été entraîné sur une vaste base de données d'images de maladies agricoles. Il peut détecter et classifier différentes maladies végétales en analysant les images prises des cultures.
 
-Conclusion
-==========
+- **Modèle utilisé** : YOLOv5
+- **Source des données d'entraînement** : Divers jeux de données de maladies agricoles
+- **Capacité** : Classifie avec précision les maladies à partir d'images
 
-La fonctionnalité de reconnaissance des maladies des plantes, associée à la recommandation de traitements, constitue une avancée significative pour l'agriculture de précision. Grâce à l'utilisation de **YOLOv5** pour la détection des maladies et de modèles de traitement avancés comme **Llama 3.1** et **Groc**, cette solution permet aux agriculteurs de réagir rapidement et efficacement aux problèmes de santé des cultures, optimisant ainsi la production et la durabilité des exploitations agricoles.
+### 2. Recommandation de Traitement
 
----
+Une fois qu'une maladie est identifiée, AgriTech propose une recommandation de traitement à l'aide de modèles avancés de traitement du langage naturel (NLP). Le modèle **Llama 3.1 (70B-versatile)** est utilisé pour fournir des recommandations de traitement, en s'appuyant sur des données textuelles. Ce modèle est ajusté par une approche de *prompt engineering* en raison du manque de données spécifiques pour effectuer un *RAG* (Retrieval-Augmented Generation).
+
+- **Modèle utilisé pour le traitement des recommandations** : Llama 3.1 (70B-versatile)
+- **Optimisation des réponses** : Groq
+
+## Objectifs
+
+- **Précision** : Fournir des diagnostics précis des maladies à partir d'images de plantes.
+- **Recommandations pratiques** : Proposer des traitements adaptés en fonction des maladies détectées.
+
+## Applications
+
+- Surveillance des cultures agricoles.
+- Aide à la gestion des maladies des plantes.
+- Optimisation de la production agricole en réduisant les pertes causées par les maladies.
+
+## Technologies Utilisées
+
+- **YOLOv5** pour la reconnaissance des maladies des plantes.
+- **Llama 3.1 (70B-versatile)** et **Groq** pour la recommandation de traitement.
+- **Scikit-learn**, **TensorFlow** pour l'optimisation du modèle et du système.
+
+## Conclusion
+
+La fonctionnalité de reconnaissance et de recommandation de traitement des maladies des plantes permet d'améliorer la gestion des maladies agricoles, tout en optimisant la santé des cultures et la production agricole dans son ensemble.
 
