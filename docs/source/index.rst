@@ -14,7 +14,7 @@ AgriTech : Solution d'Intelligence Agricole
 Description du Projet
 ===========
 
-AgriTech est une plateforme technologique de pointe dédiée à la résolution des défis complexes du secteur agricole grâce à l'intelligence artificielle et à l'apprentissage automatique. Ce projet a été conçu pour apporter des solutions intelligentes et pratiques afin d'améliorer les rendements agricoles, optimiser les ressources, et soutenir les agriculteurs dans leurs prises de décisions quotidiennes.
+AgriTech est une plateforme technologique de pointe dédiée à la résolution des défis complexes du secteur agricole grâce à l'intelligence artificielle et au machine learning. Ce projet a été conçu pour apporter des solutions intelligentes et pratiques afin d'améliorer les rendements agricoles, optimiser les ressources, et soutenir les agriculteurs dans leurs prises de décisions quotidiennes.
 
 Les fonctionnalités principales d'AgriTech s'articulent autour de trois axes fondamentaux :
 
@@ -30,21 +30,11 @@ Les fonctionnalités principales d'AgriTech s'articulent autour de trois axes fo
 En somme, AgriTech offre une solution intégrée et puissante pour relever les défis modernes de l'agriculture. Que ce soit pour choisir les cultures les mieux adaptées, estimer les rendements ou protéger les plantes contre les maladies, la plateforme met à disposition des outils intelligents basés sur les données pour soutenir une agriculture durable et prospère.
 
 
-
-
-Etapes du projet
-===========
-
-
 .. toctree::
    :caption: ETAPES DU PROJET
    :hidden:
 
    etapes
-
-Fonctionalites
-===========
-
 
 .. toctree::
    :caption: FONCTIONALITES
@@ -53,11 +43,6 @@ Fonctionalites
    culture
    maladies
    production
-
-
-Conclusion
-===========
-  
 
 .. toctree::
    :caption: CONCLUSION
